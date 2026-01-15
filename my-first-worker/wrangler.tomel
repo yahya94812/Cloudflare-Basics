@@ -1,0 +1,26 @@
+name = "my-first-worker"
+main = "src/index.js"
+compatibility_date = "2025-01-15"
+
+# Uncomment to use a custom workers.dev subdomain
+# workers_dev = true
+
+# Uncomment to add a custom route
+# route = "example.com/*"
+
+# Environment variables (if needed)
+# [env.production]
+# name = "my-first-worker-prod"
+
+# [env.staging]
+# name = "my-first-worker-staging"
+
+# KV Namespaces (if you add KV storage later)
+# [[kv_namespaces]]
+# binding = "MY_KV"
+# id = "your-kv-namespace-id"
+
+# Environment-specific KV
+# [[env.production.kv_namespaces]]
+# binding = "MY_KV"
+# id = "your-production-kv-id"
