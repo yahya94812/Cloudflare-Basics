@@ -1,0 +1,3 @@
+- use cloudflare portal
+- use github for hosting worker code along with the wrangler.toml file for specifying entry point
+- 
